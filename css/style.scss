@@ -137,7 +137,7 @@ h2{
             transition: all 0.5s;
             display: block;
             width: 100%;
-            font-size: ($mainfontsize + 3px) ;
+            font-size: ($mainfontsize + 1px) ;
 
             &:hover {
 
@@ -252,7 +252,7 @@ h2{
         letter-spacing: 1px;
         border: 1px solid #f0f0f0;
         padding: 30px;
-        background-color: #fafafa;
+        background-color: #ffc664;
         box-shadow: 1px 1px 1px #cfcfcf;
         color: black;
         font-weight: 100;
