@@ -3,7 +3,8 @@ $mtextcolor :#2d2d2d;
 $mfontwidth : 500;
 $stextcolor :white;
 $mainfontsize: 20px;
-
+@import 'nav';
+@import 'hamburger';
 
 h2{
 	transition: all 0.6s;
@@ -99,124 +100,9 @@ h2{
     }
 }
 
-.menu {
-
-    float: left;
-    background-color: purple;
-    position: fixed;
-    z-index: 1;
-    height: 100vh;
-    width: 20vw;
-    left: -100vw;
-    top: 0;
-    transition: all 0.7s;
-
-    &.actives {
-        transition: all 0.4s;
-        left: 0;
-    }
-
-
-    ul {
-        list-style: none;
-        padding: $reset;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-        flex-direction: column;
-        text-align: center;
-        position: relative;
-        top: 30%;
-
-
-        a {
-
-            color:  $stextcolor;
-            line-height: 4;
-            font-weight: ($mfontwidth - 200);
-            letter-spacing: 3px;
-            transition: all 0.5s;
-            display: block;
-            width: 100%;
-            font-size: $mainfontsize + 3px ;
-
-            &:hover {
-
-
-                text-decoration: none;
-                color: black;
-                background-color: #ffffff45;
-                padding: 0;
-                text-align: center;
-            }
-        }
-    }
-}
-
-
-.nav{
-
-	width: 100%;
-	margin:0 auto;
-	text-align: center;
-	line-height: 30px;
-	padding-bottom:5px;
-	position: fixed;
-	
-	line-height: 80px;
-	background-color: #fafafa;
-	left: 50%;
-	transform: translateX(-50%);
-	box-shadow: 1px 1px 1px #cfcfcf;
-	z-index: 0;
-	
-	button{
-	margin-left:10px;
-	border-radius: 300px;
-	line-height: 40px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #fafafa;
-	border:none;
-	border: 1px solid #d9d9d9;
-	font-weight: 300;
-
-
-	a{
-
-		color:black;
-		font-weight: $mfontwidth;
-		list-style: none;
-		text-decoration:none;
-
-
-			&:hover{
-
-		background-color: purple;
-		color:white;
-		font-weight: 800;
-
-	}
-
-
-	}
-
-	&:hover{
-
-		background-color: purple;
-		color:white;
-		font-weight: 800;
-
-	}
 
 
 
-
-	}
-	
-
-
-}
 
 .main_text {
 
