@@ -7,7 +7,14 @@ $mainfontsize: 20px;
 @import 'hamburger';
 @import 'popup';
 
+@mixin brradius($radius){
+    
+}
+
+
+
 h2{
+
 	transition: all 0.6s;
 }
 

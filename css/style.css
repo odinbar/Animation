@@ -15,8 +15,8 @@
   z-index: 0;
 }
 .nav button {
+  border-radius: 10px;
   margin-left: 10px;
-  border-radius: 300px;
   line-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
@@ -40,6 +40,14 @@
   background-color: purple;
   color: white;
   font-weight: 800;
+}
+
+.nav_second {
+  background-color: #b8b8b8;
+  top: 81px;
+  z-index: 0;
+  border-radius: 1px;
+  background-color: #d7d7d7;
 }
 
 .menu {
