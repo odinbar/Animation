@@ -113,7 +113,7 @@ h2 {
   position: fixed;
   z-index: 1;
   height: 100vh;
-  width: 20vw;
+  width: 10vw;
   left: -100vw;
   top: 0;
   -webkit-transition: all 0.7s;
