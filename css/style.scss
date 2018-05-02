@@ -7,8 +7,10 @@ $mainfontsize: 20px;
 @import 'hamburger';
 @import 'popup';
 
+
 @mixin brradius($radius){
-    
+
+    border-radius: $radius;
 }
 
 
@@ -119,14 +121,19 @@ h2{
     margin: 0 auto;
 
     h2{
-        display: flex;
+        display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 420px;
         
     }
 
 
     div {
 
-        padding-top: 300px;
+        padding-top: 250px;
         padding-bottom: 300px;
 
         &:nth-child(5) {
@@ -140,7 +147,7 @@ h2{
         margin-top: 180px;
         margin-bottom: 40px;
         text-align: center;
-        color:$mtextcolor;
+        color:$mtextcolor + #686060;
     }
 
     p {

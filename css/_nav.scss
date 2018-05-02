@@ -73,12 +73,17 @@ border-radius: $rad;
 }
 
 .nav_second{
-
-	background-color: rgb(184, 184, 184);
     top: 81px;
 	z-index: 0;
 	@include brradius(1px);
-	@include bgcolor(rgb(215, 215, 215))
+	
+		.second_mistrake{
+			position: absolute;
+			top:20px;
+			left:50%;
+			transform: translateX(-59%);
+		}
+
+	}
 	
 
-}
