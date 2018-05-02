@@ -101,7 +101,7 @@ h2 {
 
 .menu {
   float: left;
-  background-color: purple;
+  background-color: #00b6b3;
   position: fixed;
   z-index: 1;
   height: 100vh;
