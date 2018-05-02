@@ -2,7 +2,8 @@ $reset: 0;
 $mtextcolor :#2d2d2d;
 $mfontwidth : 500;
 $stextcolor :white;
-$mainfontsize:20px;
+$mainfontsize: 20px;
+
 
 h2{
 	transition: all 0.6s;
@@ -137,7 +138,7 @@ h2{
             transition: all 0.5s;
             display: block;
             width: 100%;
-            font-size: ($mainfontsize + 3px) ;
+            font-size: $mainfontsize + 3px ;
 
             &:hover {
 
