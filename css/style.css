@@ -128,7 +128,7 @@
   height: 600px;
   background-color: white;
   z-index: 44;
-  position: absolute;
+  position: fixed;
   top: 20%;
   margin: 0 auto;
   left: 50%;
