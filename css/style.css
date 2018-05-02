@@ -141,7 +141,8 @@ h2 {
       -webkit-transition: all 0.5s;
       transition: all 0.5s;
       display: block;
-      width: 100%; }
+      width: 100%;
+      font-size: 23px; }
       .menu ul a:hover {
         text-decoration: none;
         color: black;
