@@ -77,11 +77,14 @@ border-radius: $rad;
 	z-index: 0;
 	@include brradius(1px);
 	
+	
 		.second_mistrake{
 			position: absolute;
 			top:20px;
 			left:50%;
-			transform: translateX(-59%);
+			transform: translateX(-50%);
+			width: 1220px;
+			text-align: center;
 		}
 
 	}
