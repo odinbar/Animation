@@ -13,6 +13,12 @@ $mainfontsize: 20px;
     border-radius: $radius;
 }
 
+@mixin border($radiuss,$radistop ){
+
+border-radius:$radiuss;
+border:$radistop solid gray;
+}
+
 
 
 h2{
@@ -159,6 +165,7 @@ h2{
         box-shadow: 1px 1px 1px #cfcfcf;
         color: black;
         font-weight: 100;
+        @include border(30px,1px);
     }
 
     .five_text {
