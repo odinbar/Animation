@@ -295,7 +295,7 @@ h2 {
           box-shadow: 1px 1px 1px #cfcfcf;
   color: black;
   font-weight: 100;
-  border-radius: 30px;
+  border-radius: 30px 1px;
   border: 1px solid gray;
 }
 .main_text .five_text {

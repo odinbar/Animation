@@ -15,7 +15,7 @@ $mainfontsize: 20px;
 
 @mixin border($radiuss,$radistop ){
 
-border-radius:$radiuss;
+border-radius:$radiuss $radistop ;
 border:$radistop solid gray;
 }
 
