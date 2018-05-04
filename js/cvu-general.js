@@ -4,10 +4,10 @@ jQuery(document).ready(function($) {
 
     var nav = $('.menu li');
 
-    $('.menu_link').on("click", function(event) {
-        $('.menu_link').toggleClass('active')
+    // $('.menu_link').on("click", function(event) {
+    //     $('.menu_link').toggleClass('active')
 
-    });
+    // });
 
     $('.menu_link').on("click", function(event) {
         $('.menu').toggleClass('actives');
@@ -27,12 +27,10 @@ jQuery(document).ready(function($) {
 
 
 
-    $('p').click(function(event) {
-        $(this).slideUp(300);
-    });
+ 
 
    $('h1').click(function(event) {
-        $('p').slideDown(600);
+        $('p').slideToggle(600);
 
     });
 
@@ -114,7 +112,9 @@ $('.tor_img')
 
 // });
 
-
+$('.second_mistrake , .mistrake ').click(function (params) {
+    $('.second_mistrake').css('display','none');
+});
 
 
 });

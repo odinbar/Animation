@@ -307,4 +307,38 @@ h2 {
   bottom: 0;
 }
 
+.tree_text .imgs:nth-child(1) {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 20px;
+  background-image: url("../img/icon3_white.png");
+  background-size: cover;
+  padding: 22px;
+  background-position: 50% 50%;
+}
+.tree_text .imgs:nth-child(2n) {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 20px;
+  background-image: url("../img/Icon_4 white.png");
+  background-size: cover;
+  padding: 22px;
+  background-position: 50% 50%;
+}
+.tree_text .imgs:nth-child(3n) {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 20px;
+  background-image: url("../img/icon1_white.png");
+  background-size: cover;
+  padding: 22px;
+  background-position: 50% 50%;
+}
+
 /*# sourceMappingURL=style.css.map */

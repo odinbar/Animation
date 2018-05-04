@@ -7,7 +7,6 @@ $mainfontsize: 20px;
 @import 'hamburger';
 @import 'popup';
 
-
 @mixin brradius($radius){
 
     border-radius: $radius;
@@ -19,6 +18,18 @@ border-radius:$radiuss $radistop ;
 border:$radistop solid gray;
 }
 
+@mixin background($background){
+    width: 80px;
+    height: 80px;
+    // border:1px solid black;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 20px;
+    background-image: url($background);
+    background-size: cover;padding: 22px;
+    background-position: 50% 50%;
+    
+}
 
 
 h2{
@@ -166,6 +177,8 @@ h2{
         color: black;
         font-weight: 100;
         @include border(30px,1px);
+
+        
     }
 
     .five_text {
@@ -180,6 +193,32 @@ h2{
     }
 }
 
+
+.tree_text{
+
+
+    
+        
+
+    .imgs:nth-child(1) {
+
+        @include background('../img/icon3_white.png');
+       
+    }
+
+    .imgs:nth-child(2n) {
+
+        @include background('../img/Icon_4 white.png');
+       
+    }
+
+    .imgs:nth-child(3n) {
+
+        @include background('../img/icon1_white.png');
+       
+    }
+
+}
 
 
 
