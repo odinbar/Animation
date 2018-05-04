@@ -115,13 +115,6 @@ $('.tor_img')
 // });
 
 
-$('.new').click(function(event) {
-
-$('#message')
-.html('news')
-.css('color','red')
-
-});
 
 
 });
